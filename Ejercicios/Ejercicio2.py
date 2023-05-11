@@ -19,3 +19,6 @@ def principal():
                         
                 choose = input("Si  quieres continuar teclea 's', sino pulse cualquier otra tecla: ")
                 op = choose.lower()
+
+if __name__ == "__main__":
+    principal() 

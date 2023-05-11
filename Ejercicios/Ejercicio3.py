@@ -18,3 +18,6 @@ def principal():
             print("Hay {numero} palabras en la cadena".format(numero=i))
         choose = input("Si  quieres continuar teclea 's', sino pulse cualquier otra tecla: ")
         op = choose.lower()
+
+if __name__ == "__main__":
+    principal() 
